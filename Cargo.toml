@@ -6,10 +6,10 @@ edition = "2018"
 license = "MIT"
 description = "Kalman filter implementation in rust (WIP)"
 
-
-[lib]
-name = "kalman_rs"
-crate-type = ["staticlib"]
+# commented out for cargo tests. Required to build library to link in c++
+# [lib]
+# name = "kalman_rs"
+# crate-type = ["staticlib"]
 
 
 [dependencies]
